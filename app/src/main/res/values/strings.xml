@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Spinner Task</string>
+    <string name="Submit">Submit</string>
+    <string name="value"><![CDATA[IN->TN->TamilNadu]]></string>
+    <string name="anotherSpinner">Please Click this button for Another Spinner…</string>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:paddingBottom="16dp"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/purple_500"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <Spinner
+            android:id="@+id/spinner_country1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:paddingBottom="16dp"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/purple_500"
+            android:padding="8dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_state1"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="8dp"
+            android:paddingBottom="16dp"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/purple_500"
+            android:padding="8dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner_city1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
